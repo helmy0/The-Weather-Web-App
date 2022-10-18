@@ -1,0 +1,72 @@
+body{
+  background-color: #F5EFE6;
+}
+.header{
+  background-color:  #B4CDE6;
+  margin: 30px;
+  text-align: center;
+}
+label{
+  font-size: 3rem;
+}
+
+.ws{
+  width: 400px;
+  height: 100px;
+  font-size:2rem;
+}
+
+h1{
+  font-size: 5.625rem ;
+  align-content: center;
+  width: 90%;
+  font-family:'Lato', sans-serif;
+  padding: 100px;
+
+}
+.dropdown{
+  text-align: center;
+  padding:80px;
+}
+.cityInput{
+
+}
+.button{
+  text-align: center;
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:12px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Trebuchet MS;
+	font-size:19px;
+	font-weight:bold;
+	padding:8px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+input{
+  font-size: 1rem ;
+  margin: 0 auto 0 auto;
+  width: 50%;
+  font-family:'Lato', sans-serif;
+  margin-top: 50px auto 0 auto;
+  padding: 10px;
+}
+label{
+  font-size: 2rem ;
+  font-family:'Lato', sans-serif;
+}

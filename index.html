@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/styles.css">
+    <title>Weather App </title>
+
+  </head>
+  <body>
+      <div class="header">
+        <h1>The Weather web app</h1>
+      </div>
+
+
+
+      <div class="">
+        <form class="dropdown" action="/" method="post">
+          <label for="cityInput">City Name: </label>
+
+          <select class="ws" name="cityName">
+            <option value="">Please Select a Country</option>
+            <option value="Paris">Paris</option>
+            <option value="London">London</option>
+            <option value="Riyadh">Riyadh</option>
+            <option value="Jeddah">Jeddah</option>
+            <option value="Cairo">Cairo</option>
+            <option value="Oslo">Oslo</option>
+            <option value="Sydney">Sydney</option>
+            <option value="Alexandria">Alexandria</option>
+            <option value="Aswan">Aswan</option>
+          </select>
+          <button type="submit" name="button">Submit</button>
+        </form>
+      </div>
+      <div class="">
+        <form class="dropdown" action="/" method="post">
+          <label for="cityInput">Or type it out yourself!! : </label>
+          <input class="ws"id= "cityInput" type="text" name="cityName" >
+          <button type="submit" name="button">Submit</button>
+        </form>
+      </div>
+      <script src="app.js" charset="utf-8"></script>
+  </body>
+</html>
+
+<!-- <div class="">
+  <form class="" action="/" method="post">
+    <label for="cityInput">City Name: </label>
+    <input id= "cityInput" type="text" name="cityName" >
+    <button type="submit" name="button">Submit</button>
+  </form>
+</div> -->
